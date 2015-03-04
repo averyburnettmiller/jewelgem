@@ -1,5 +1,3 @@
-<!DOCTYPE HTML>
-<HTML>
 print "What's your first name?"
 first_name = gets.chomp
 first_name.capitalize!
@@ -13,4 +11,4 @@ print "What state do you live in? (Please use an abbreviation!)"
 state = gets.chomp
 state.capitalize!
 puts "Your name is #{first_name} #{last_name}, and you live to #{city}, #{state}!"
-</HTML>
+
