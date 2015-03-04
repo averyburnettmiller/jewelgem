@@ -11,4 +11,3 @@ print "What state do you live in? (Please use an abbreviation!)"
 state = gets.chomp
 state.capitalize!
 puts "Your name is #{first_name} #{last_name}, and you live to #{city}, #{state}!"
-
